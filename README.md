@@ -1,0 +1,1 @@
+# Seddik-Turki-Animal-Pose-Estimation-with-YOLOv8-Pose
