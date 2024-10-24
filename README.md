@@ -10,12 +10,14 @@ The Yolov8 pose model was finetuned on the [macaque pose dataset](https://www2.e
 All the code of the project can be found in the `APT.ipynb`.
 Here's an overview of the code
  * **Dataset**: Download the macaque pose dataset from a specified URL and extracts the dataset from a zip file for further use.
- * **EDA (Exploratory Data Analysis)**:  - Visualize and analyze keypoints and segmentation data for macaque images.
-                                         - Generating plots to assess the distribution of keypoints, identifying mislabeled keypoints, and examining image sizes.
-                                         - Providing insights into the dataset's characteristics and quality.
-* **YOLOv8 annotations**:  - Process segmentation data to extract bounding boxes and keypoints for macaque images.
-                           - Visualizes the keypoints and bounding boxes on the images, normalizes their coordinates for YOLO format.
-                           - Verify the conversion process
+ * **EDA (Exploratory Data Analysis)**:
+     - Visualize and analyze keypoints and segmentation data for macaque images.
+     - Generating plots to assess the distribution of keypoints, identifying mislabeled keypoints, and examining image sizes.
+     - Providing insights into the dataset's characteristics and quality.
+* **YOLOv8 annotations**:
+    - Process segmentation data to extract bounding boxes and keypoints for macaque images.
+    - Visualizes the keypoints and bounding boxes on the images, normalizes their coordinates for YOLO format.
+    - Verify the conversion process
 * **Train Model**
 * **Prediction**: Make predictions on both images and videos.
 
